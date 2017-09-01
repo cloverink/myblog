@@ -1,6 +1,7 @@
 <?php
-$header_landing = ($template_name == "homepage")? '' : 'href="/"';
+$header_landing = ($template_name == "home")? '' : 'href="/"';
+echo $header_landing;
 ?>
 <header>
-็HEADER
+
 </header>

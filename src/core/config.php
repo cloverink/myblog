@@ -22,5 +22,5 @@ function sanitize_output($buffer) {
   return $buffer;
 }
 
-ob_start("sanitize_output");
+// ob_start("sanitize_output");
 
